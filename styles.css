@@ -1,0 +1,97 @@
+body {
+    background: #C4C4C4;
+}
+  
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+  
+.search-bar {
+    padding: 0;
+}
+  
+.search-field {
+    width: 500px;
+    height: 60px;
+    font-size: 48px;
+    padding: 10px;
+}
+  
+.search {
+    margin-bottom: 0;
+    margin-top: 45px;
+    margin-left: 74px;
+    font-size: 30px;
+}
+  
+.search-value__text {
+    padding: 10px;
+}
+  
+.dropdown {
+    position: relative;
+    margin-bottom: 294px;
+}
+  
+.search-value {
+    position: absolute;
+    width: 520px;
+    height: 44px;
+    background: #E3E3E3;
+    border: 2px solid #000000;
+    display: none;
+    cursor: pointer;
+}
+  
+.search-value:hover {
+    background: #65CDF9;
+}
+  
+.search-value:nth-child(1) {
+    top: 0px;
+}
+  
+.search-value:nth-child(2) {
+    top: 46px;
+}
+  
+.search-value:nth-child(3) {
+    top: 92px;
+}
+  
+.search-value:nth-child(4) {
+    top: 138px;
+}
+  
+.search-value:nth-child(5) {
+    top: 184px;
+}
+  
+.repo-list {
+    margin: 45px 74px;
+}
+  
+.repo-item {
+    background: #E27BEB;
+    width: 500px;
+    height: 100px;
+    border: 1px solid #000000;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.text {
+    margin: 10px;
+}
+  
+.exit {
+    align-self: center;
+    cursor: pointer;
+}
+.exit img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
